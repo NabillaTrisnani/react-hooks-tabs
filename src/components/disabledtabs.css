@@ -1,0 +1,4 @@
+/* add these line to your tabs.css */
+.tab-button:disabled:hover {
+  border-bottom: 2px solid transparent;
+}
