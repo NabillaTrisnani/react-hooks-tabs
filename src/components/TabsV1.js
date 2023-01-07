@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './tabsv3.css';
+import './tabsv1.css';
 
-export default function TabsV3() {
+export default function TabsV1() {
   const [active, setActive] = useState('tab-1');
 
   const handleClick = (event) => {
@@ -10,8 +10,8 @@ export default function TabsV3() {
 
   return (
     <div>
-      <div className="container tabs-v3">
-        <div className="tabs">
+      <div className="container">
+        <div className="tabs-pills">
           <button
             className={`tab-button ${active === 'tab-1' ? 'active' : ''}`}
             id="tab-1"

@@ -10,8 +10,8 @@ export default function TabsV2() {
 
   return (
     <div>
-      <div className="container">
-        <div className="tabs-pills">
+      <div className="container tabs-v2">
+        <div className="tabs">
           <button
             className={`tab-button ${active === 'tab-1' ? 'active' : ''}`}
             id="tab-1"
